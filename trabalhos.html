@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhos/Works</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .galeria-grande {
+            margin: 12px auto;
+            max-width: 680px; /* Ajuste conforme necessário */
+        }
+
+        .imagem {
+            position: relative;
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .imagem img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .legenda {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 10px;
+        }
+
+        /* Estilos adicionais para a navbar */
+        #wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        #nav {
+            order: -1; /* Coloca a navbar no topo visualmente */
+            background: #333;
+            padding: 1em;
+            text-align: center;
+        }
+
+        #nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        #nav li {
+            margin: 0 10px;
+        }
+
+        #nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">projetos</a></li>
+                <li class="active"><a href="trabalhos.html">trabalhos</a></li>
+                <li class="active"><a href="bio.html">info</a></li>
+                <!--<li><a href="elements.html">BIO</a></li>-->
+            </ul>
+        </nav>
+
+        <div class="galeria-grande">
+            <!-- Repita o bloco abaixo para cada imagem -->
+            <div class="imagem">
+                <img src="paginas/images/trabalho1.jpg" alt="Imagem 1">
+                <div class="legenda">hospital n.1(2023)/fotografia digital</div>
+            </div>
+           
+            <div class="imagem">
+                <img src="paginas/images/trabalho2.jpg" alt="Imagem 1">
+                <div class="legenda">hospital n.2(2023)/fotografia digital</div>
+            </div>
+    
+            <div class="imagem">
+                <img src="paginas/images/trabalho3.jpg" alt="Imagem 1">
+                <div class="legenda">hospital n.3(2023)/fotografia digital</div>
+            </div>
+    
+            <div class="imagem">
+                <img src="paginas/images/trabalho4.jpg" alt="Imagem 1">
+                <div class="legenda">a máquina do mundo(2023) / colagem digital / 27,09x16,95cm</div>
+            </div>
+    
+            <div class="imagem">
+                <img src="paginas/images/trabalho5.jpg" alt="Imagem 1">
+                <div class="legenda">convenção das bruxas(2023) / óleo sobre tela/ 30x40cm</div>
+            </div>
+    
+            <div class="imagem">
+                <img src="paginas/images/trabalho6.jpg" alt="Imagem 1">
+                <div class="legenda">amante gay(2023)/ colagem manual sobre papel kraft/ 9,25 x 34cm</div>
+            </div>
+    
+            <div class="imagem">
+                <img src="paginas/images/trabalho7.jpg" alt="Imagem 1">
+                <div class="legenda">conheço o meu lugar(2022)/colagem digital</div>
+            </div>
+    
+          <!--  <div class="imagem">
+                <img src="images/trabalho8.jpg" alt="Imagem 1">
+                <div class="legenda">Legenda da Imagem 1</div>-->
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
